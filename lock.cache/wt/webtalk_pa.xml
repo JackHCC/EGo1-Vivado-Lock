@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Mon Jun 17 13:26:41 2019">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="0d83d39448bb4aa29da15ea4617a2291" type="ProjectID"/>
+<property name="ProjectIteration" value="102" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddCfgMem" value="2" type="JavaHandler"/>
+<property name="AddSources" value="8" type="JavaHandler"/>
+<property name="AutoConnectTarget" value="4" type="JavaHandler"/>
+<property name="CloseDesign" value="1" type="JavaHandler"/>
+<property name="EditDelete" value="3" type="JavaHandler"/>
+<property name="EditPaste" value="1" type="JavaHandler"/>
+<property name="EditUndo" value="2" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="66" type="JavaHandler"/>
+<property name="NewHardwareDashboard" value="1" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="70" type="JavaHandler"/>
+<property name="OpenProject" value="5" type="JavaHandler"/>
+<property name="OpenRecentTarget" value="4" type="JavaHandler"/>
+<property name="ProgramDevice" value="65" type="JavaHandler"/>
+<property name="RunBitgen" value="85" type="JavaHandler"/>
+<property name="RunImplementation" value="21" type="JavaHandler"/>
+<property name="RunSynthesis" value="5" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="21" type="JavaHandler"/>
+<property name="ShowView" value="21" type="JavaHandler"/>
+<property name="ToolsSettings" value="5" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="4" type="JavaHandler"/>
+<property name="ui.views.c.h.e" value="6" type="JavaHandler"/>
+</item>
+<item name="Gui Handlers">
+<property name="AddSrcWizard_SPECIFY_HDL_NETLIST_BLOCK_DESIGN" value="1" type="GuiHandlerData"/>
+<property name="BaseDialog_APPLY" value="5" type="GuiHandlerData"/>
+<property name="BaseDialog_CANCEL" value="1" type="GuiHandlerData"/>
+<property name="BaseDialog_NO" value="5" type="GuiHandlerData"/>
+<property name="BaseDialog_OK" value="42" type="GuiHandlerData"/>
+<property name="BaseDialog_YES" value="8" type="GuiHandlerData"/>
+<property name="CmdMsgDialog_OK" value="2" type="GuiHandlerData"/>
+<property name="ConfirmSaveTextEditsDialog_YES" value="1" type="GuiHandlerData"/>
+<property name="ConstraintsChooserPanel_CREATE_FILE" value="1" type="GuiHandlerData"/>
+<property name="CreateConstraintsFilePanel_FILE_NAME" value="1" type="GuiHandlerData"/>
+<property name="CreateSrcFileDialog_FILE_NAME" value="7" type="GuiHandlerData"/>
+<property name="FPGAChooser_FAMILY" value="1" type="GuiHandlerData"/>
+<property name="FPGAChooser_FPGA_TABLE" value="3" type="GuiHandlerData"/>
+<property name="FPGAChooser_PACKAGE" value="1" type="GuiHandlerData"/>
+<property name="FPGAChooser_SPEED" value="1" type="GuiHandlerData"/>
+<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="139" type="GuiHandlerData"/>
+<property name="FindAndReplaceAllDialog_FIND" value="6" type="GuiHandlerData"/>
+<property name="FindInFilesView_REPLACE_ALL_OCCURRENCES_IN_ALL_FILES" value="6" type="GuiHandlerData"/>
+<property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="206" type="GuiHandlerData"/>
+<property name="GettingStartedView_CREATE_NEW_PROJECT" value="1" type="GuiHandlerData"/>
+<property name="GettingStartedView_OPEN_PROJECT" value="5" type="GuiHandlerData"/>
+<property name="HPopupTitle_CLOSE" value="1" type="GuiHandlerData"/>
+<property name="HardwareTreePanel_HARDWARE_TREE_TABLE" value="4" type="GuiHandlerData"/>
+<property name="MainMenuMgr_CHECKPOINT" value="4" type="GuiHandlerData"/>
+<property name="MainMenuMgr_EDIT" value="50" type="GuiHandlerData"/>
+<property name="MainMenuMgr_EXPORT" value="4" type="GuiHandlerData"/>
+<property name="MainMenuMgr_FILE" value="20" type="GuiHandlerData"/>
+<property name="MainMenuMgr_FLOW" value="36" type="GuiHandlerData"/>
+<property name="MainMenuMgr_IMPORT" value="6" type="GuiHandlerData"/>
+<property name="MainMenuMgr_IP" value="6" type="GuiHandlerData"/>
+<property name="MainMenuMgr_OPEN_RECENT_PROJECT" value="2" type="GuiHandlerData"/>
+<property name="MainMenuMgr_PROJECT" value="7" type="GuiHandlerData"/>
+<property name="MainMenuMgr_REPORTS" value="12" type="GuiHandlerData"/>
+<property name="MainMenuMgr_SETTINGS" value="8" type="GuiHandlerData"/>
+<property name="MainMenuMgr_TEXT_EDITOR" value="5" type="GuiHandlerData"/>
+<property name="MainMenuMgr_TOOLS" value="34" type="GuiHandlerData"/>
+<property name="MainMenuMgr_VIEW" value="2" type="GuiHandlerData"/>
+<property name="MainMenuMgr_WINDOW" value="6" type="GuiHandlerData"/>
+<property name="MainWinMenuMgr_LAYOUT" value="6" type="GuiHandlerData"/>
+<property name="MsgTreePanel_MESSAGE_VIEW_TREE" value="70" type="GuiHandlerData"/>
+<property name="PACommandNames_ADD_CONFIG_MEMORY" value="5" type="GuiHandlerData"/>
+<property name="PACommandNames_ADD_SOURCES" value="3" type="GuiHandlerData"/>
+<property name="PACommandNames_AUTO_CONNECT_TARGET" value="4" type="GuiHandlerData"/>
+<property name="PACommandNames_AUTO_UPDATE_HIER" value="4" type="GuiHandlerData"/>
+<property name="PACommandNames_CLOSE_DESIGN" value="1" type="GuiHandlerData"/>
+<property name="PACommandNames_PROGRAM_FPGA" value="4" type="GuiHandlerData"/>
+<property name="PACommandNames_REPLACE_IN_FILES" value="6" type="GuiHandlerData"/>
+<property name="PACommandNames_SIMULATION_RUN" value="5" type="GuiHandlerData"/>
+<property name="PAViews_PROJECT_SUMMARY" value="8" type="GuiHandlerData"/>
+<property name="ProgramFpgaDialog_PROGRAM" value="66" type="GuiHandlerData"/>
+<property name="ProjectNameChooser_CHOOSE_PROJECT_LOCATION" value="1" type="GuiHandlerData"/>
+<property name="ProjectNameChooser_PROJECT_NAME" value="1" type="GuiHandlerData"/>
+<property name="RDICommands_COPY" value="5" type="GuiHandlerData"/>
+<property name="RDICommands_CUSTOM_COMMANDS" value="5" type="GuiHandlerData"/>
+<property name="RDICommands_DELETE" value="3" type="GuiHandlerData"/>
+<property name="RDICommands_SETTINGS" value="5" type="GuiHandlerData"/>
+<property name="RemoveSourcesDialog_ALSO_DELETE" value="1" type="GuiHandlerData"/>
+<property name="RunGadget_SHOW_ERROR_AND_CRITICAL_WARNING_MESSAGES" value="1" type="GuiHandlerData"/>
+<property name="SaveProjectUtils_SAVE" value="4" type="GuiHandlerData"/>
+<property name="SettingsDialog_PROJECT_TREE" value="7" type="GuiHandlerData"/>
+<property name="SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT" value="1" type="GuiHandlerData"/>
+<property name="SrcChooserPanel_CREATE_FILE" value="7" type="GuiHandlerData"/>
+<property name="SrcChooserTable_SRC_CHOOSER_TABLE" value="3" type="GuiHandlerData"/>
+<property name="SrcFilePropPanels_TYPE" value="1" type="GuiHandlerData"/>
+<property name="SrcMenu_IP_HIERARCHY" value="4" type="GuiHandlerData"/>
+<property name="StateMonitor_RESET_RUN" value="5" type="GuiHandlerData"/>
+<property name="SyntheticaGettingStartedView_RECENT_PROJECTS" value="1" type="GuiHandlerData"/>
+<property name="SyntheticaStateMonitor_CANCEL" value="8" type="GuiHandlerData"/>
+<property name="TclConsoleView_TCL_CONSOLE_CODE_EDITOR" value="1" type="GuiHandlerData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="31" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="26" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri May 24 01:28:22 2019
+# Process ID: 14036
+# Current directory: G:/vivado_projects/lock/lock/lock.runs/impl_1
+# Command line: vivado.exe -log clock_make.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source clock_make.tcl -notrace
+# Log file: G:/vivado_projects/lock/lock/lock.runs/impl_1/clock_make.vdi
+# Journal file: G:/vivado_projects/lock/lock/lock.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source clock_make.tcl -notrace

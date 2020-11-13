@@ -1,0 +1,472 @@
+
+*** Running vivado
+    with args -log lock.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source lock.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source lock.tcl -notrace
+Command: synth_design -top lock -part xc7a35tcsg324-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 3976 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 433.168 ; gain = 98.996
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'lock' [G:/vivado_projects/lock/lock/lock.srcs/sources_1/new/lock.v:3]
+INFO: [Synth 8-6157] synthesizing module 'clock_make' [G:/vivado_projects/lock/lock/lock.srcs/sources_1/new/clock_make.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'clock_make' (1#1) [G:/vivado_projects/lock/lock/lock.srcs/sources_1/new/clock_make.v:3]
+INFO: [Synth 8-6157] synthesizing module 'digital_put' [G:/vivado_projects/lock/lock/lock.srcs/sources_1/new/digital_put.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'digital_put' (2#1) [G:/vivado_projects/lock/lock/lock.srcs/sources_1/new/digital_put.v:3]
+WARNING: [Synth 8-6014] Unused sequential element pwds_reg was removed.  [G:/vivado_projects/lock/lock/lock.srcs/sources_1/new/lock.v:345]
+INFO: [Synth 8-6155] done synthesizing module 'lock' (3#1) [G:/vivado_projects/lock/lock/lock.srcs/sources_1/new/lock.v:3]
+WARNING: [Synth 8-3331] design digital_put has unconnected port sys_clk
+WARNING: [Synth 8-3331] design digital_put has unconnected port rst_n
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[63]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[62]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[61]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[60]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[59]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[58]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[57]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[56]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[55]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[54]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[53]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[52]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[51]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[50]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[49]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[48]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[47]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[46]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[45]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[44]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[43]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[42]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[41]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[40]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[39]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[38]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[37]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[36]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[35]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[34]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[33]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[32]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[31]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[30]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[29]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[28]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[27]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[26]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[25]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[24]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[23]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[22]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[21]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[20]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[19]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[18]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[17]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[16]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[15]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[14]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[13]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[12]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[11]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[10]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[9]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[8]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[7]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[6]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[5]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[4]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[3]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[2]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[1]
+WARNING: [Synth 8-3331] design digital_put has unconnected port timer[0]
+WARNING: [Synth 8-3331] design clock_make has unconnected port lock_status
+WARNING: [Synth 8-3331] design clock_make has unconnected port load_status
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 489.055 ; gain = 154.883
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 489.055 ; gain = 154.883
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 489.055 ; gain = 154.883
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcsg324-3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [G:/vivado_projects/lock/lock/lock.srcs/constrs_1/new/vtf_lock.xdc]
+Finished Parsing XDC File [G:/vivado_projects/lock/lock/lock.srcs/constrs_1/new/vtf_lock.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [G:/vivado_projects/lock/lock/lock.srcs/constrs_1/new/vtf_lock.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/lock_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/lock_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 834.695 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 834.695 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 834.695 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 834.695 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 834.695 ; gain = 500.523
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 834.695 ; gain = 500.523
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 834.695 ; gain = 500.523
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "pwd_cng_timer" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "left_timer" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "right_timer" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "up_timer" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "down_timer" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "middle_timer" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "led_timer" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "timer" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-802] inferred FSM for state register 'choose_reg' in module 'lock'
+INFO: [Synth 8-5545] ROM "leddown" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "choose" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pwd1" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "succ_status" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "number_1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "number_2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "number_3" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "number_4" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "choose" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "choose" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "choose" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "choose" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "choose" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                               00 |                         00000000
+                 iSTATE0 |                               01 |                         00000001
+                 iSTATE2 |                               10 |                         00000010
+                 iSTATE1 |                               11 |                         00000011
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'choose_reg' using encoding 'sequential' in module 'lock'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 834.695 ; gain = 500.523
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------+------------+----------+
+|      |RTL Partition   |Replication |Instances |
++------+----------------+------------+----------+
+|1     |clock_make__GB0 |           1|     41945|
+|2     |clock_make__GB1 |           1|      6059|
+|3     |clock_make__GB2 |           1|     12118|
+|4     |clock_make__GB3 |           1|     12375|
+|5     |clock_make__GB4 |           1|     12118|
+|6     |lock__GC0       |           1|      7434|
++------+----------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 16    
+	   2 Input      4 Bit       Adders := 8     
++---Registers : 
+	               64 Bit    Registers := 16    
+	                8 Bit    Registers := 3     
+	                4 Bit    Registers := 14    
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 23    
+	  10 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 9     
+	   3 Input      8 Bit        Muxes := 1     
+	   3 Input      7 Bit        Muxes := 1     
+	   3 Input      6 Bit        Muxes := 1     
+	   3 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 24    
+	   3 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 5     
+	   9 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 28    
+	   4 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module lock 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 8     
++---Registers : 
+	                8 Bit    Registers := 3     
+	                4 Bit    Registers := 14    
+	                1 Bit    Registers := 2     
++---Muxes : 
+	  10 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 9     
+	   3 Input      8 Bit        Muxes := 1     
+	   3 Input      7 Bit        Muxes := 1     
+	   3 Input      6 Bit        Muxes := 1     
+	   3 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 24    
+	   3 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 5     
+	   9 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 28    
+	   4 Input      1 Bit        Muxes := 2     
+Module clock_make 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 16    
++---Registers : 
+	               64 Bit    Registers := 16    
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 23    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5545] ROM "led_timer" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pwd_cng_timer" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "up_timer" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "timer" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "right_timer" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "left_timer" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "middle_timer" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "down_timer" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "p_0_out" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "leddown" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "choose" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pwd1" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-3886] merging instance 'i_0/number_5_reg[0]' (FDR) to 'i_0/number_5_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/\number_6_reg[0] )
+INFO: [Synth 8-3886] merging instance 'i_0/number_8_reg[0]' (FDS) to 'i_0/number_6_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/number_6_reg[1]' (FDS) to 'i_0/number_6_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/number_7_reg[1]' (FD) to 'i_0/number_7_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/number_6_reg[2]' (FDS) to 'i_0/number_8_reg[2]'
+INFO: [Synth 8-3886] merging instance 'i_0/number_5_reg[3]' (FDS) to 'i_0/number_6_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/number_6_reg[3]' (FDS) to 'i_0/number_8_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/is_jmp_reg[0]' (FDE) to 'i_0/is_jmp_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/is_jmp_reg[1]' (FDE) to 'i_0/is_jmp_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/is_jmp_reg[2]' (FDE) to 'i_0/is_jmp_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/\is_jmp_reg[3] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 834.695 ; gain = 500.523
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------+------------+----------+
+|      |RTL Partition   |Replication |Instances |
++------+----------------+------------+----------+
+|1     |clock_make__GB0 |           1|      6536|
+|2     |clock_make__GB1 |           1|      4225|
+|3     |clock_make__GB2 |           1|      8449|
+|4     |lock__GC0       |           1|      1819|
++------+----------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 846.617 ; gain = 512.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 875.000 ; gain = 540.828
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------+------------+----------+
+|      |RTL Partition   |Replication |Instances |
++------+----------------+------------+----------+
+|1     |clock_make__GB0 |           1|      6536|
+|2     |lock_GT0        |           1|     14493|
++------+----------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 926.578 ; gain = 592.406
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 926.578 ; gain = 592.406
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 926.578 ; gain = 592.406
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 926.578 ; gain = 592.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 926.578 ; gain = 592.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 926.578 ; gain = 592.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 926.578 ; gain = 592.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |   960|
+|3     |LUT1   |   140|
+|4     |LUT2   |  1332|
+|5     |LUT3   |  1698|
+|6     |LUT4   |  1098|
+|7     |LUT5   |   293|
+|8     |LUT6   |  1549|
+|9     |FDCE   |   745|
+|10    |FDPE   |    17|
+|11    |FDRE   |    14|
+|12    |IBUF   |     8|
+|13    |OBUF   |    31|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+------------+------+
+|      |Instance |Module      |Cells |
++------+---------+------------+------+
+|1     |top      |            |  7886|
+|2     |  U1     |clock_make  |  7744|
+|3     |  U2     |digital_put |    14|
++------+---------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 926.578 ; gain = 592.406
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:41 ; elapsed = 00:00:44 . Memory (MB): peak = 926.578 ; gain = 246.766
+Synthesis Optimization Complete : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 926.578 ; gain = 592.406
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 960 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'lock' is not ideal for floorplanning, since the cellview 'clock_make' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 926.578 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+65 Infos, 70 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 926.578 ; gain = 605.418
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 926.578 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'G:/vivado_projects/lock/lock/lock.runs/synth_1/lock.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file lock_utilization_synth.rpt -pb lock_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri May 24 02:28:27 2019...

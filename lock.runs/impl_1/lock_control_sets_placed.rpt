@@ -1,0 +1,88 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri May 24 02:29:14 2019
+| Host         : Initialize running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file lock_control_sets_placed.rpt
+| Design       : lock
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    20 |
+| Unused register locations in slices containing registers |    32 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      4 |            5 |
+|      8 |            1 |
+|     12 |            1 |
+|     14 |            1 |
+|    16+ |           12 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              14 |            7 |
+| No           | No                    | Yes                    |             450 |          187 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             312 |           93 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------+------------------------------+----------------------------+------------------+----------------+
+|    Clock Signal    |         Enable Signal        |      Set/Reset Signal      | Slice Load Count | Bel Load Count |
++--------------------+------------------------------+----------------------------+------------------+----------------+
+|  sys_clk_IBUF_BUFG | U1/rst_n_0[0]                | U1/rst_n                   |                1 |              4 |
+|  sys_clk_IBUF_BUFG | is_jmp[4]_i_1_n_0            | U1/rst_n                   |                2 |              4 |
+|  sys_clk_IBUF_BUFG | is_jmp[6]_i_1_n_0            | U1/rst_n                   |                2 |              4 |
+|  sys_clk_IBUF_BUFG | is_jmp[7]_i_1_n_0            | U1/rst_n                   |                1 |              4 |
+|  sys_clk_IBUF_BUFG | number_3                     | U1/rst_n                   |                1 |              4 |
+|  sys_clk_IBUF_BUFG | U1/E[0]                      | leddown[7]_i_3_n_0         |                7 |              8 |
+|  sys_clk_IBUF_BUFG | U1/rst_n_1[0]                | leddown[7]_i_3_n_0         |                6 |             12 |
+|  sys_clk_IBUF_BUFG |                              |                            |                7 |             14 |
+|  sys_clk_IBUF_BUFG | U1/middle_timer_reg[37]_0[0] | U1/rst_n                   |                5 |             16 |
+|  sys_clk_IBUF_BUFG |                              | U1/down_timer[63]_i_2_n_0  |               28 |             64 |
+|  sys_clk_IBUF_BUFG |                              | U1/up_timer[63]_i_2_n_0    |               27 |             64 |
+|  sys_clk_IBUF_BUFG |                              | U1/right_timer[63]_i_2_n_0 |               29 |             64 |
+|  sys_clk_IBUF_BUFG |                              | U1/timer[63]_i_2_n_0       |               25 |             64 |
+|  sys_clk_IBUF_BUFG |                              | U1/led_timer[63]_i_2_n_0   |               27 |             64 |
+|  sys_clk_IBUF_BUFG |                              | U1/left_timer[63]_i_2_n_0  |               23 |             64 |
+|  sys_clk_IBUF_BUFG | rst_n_IBUF                   | U1/jmp1[63]_i_2_n_0        |               17 |             64 |
+|  sys_clk_IBUF_BUFG | rst_n_IBUF                   | U1/jmp2[63]_i_2_n_0        |               18 |             64 |
+|  sys_clk_IBUF_BUFG | rst_n_IBUF                   | U1/jmp3[63]_i_2_n_0        |               16 |             64 |
+|  sys_clk_IBUF_BUFG | rst_n_IBUF                   | U1/jmp4[63]_i_2_n_0        |               17 |             64 |
+|  sys_clk_IBUF_BUFG |                              | U1/rst_n                   |               28 |             66 |
++--------------------+------------------------------+----------------------------+------------------+----------------+
+
+
